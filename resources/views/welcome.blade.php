@@ -39,6 +39,7 @@
         <div class="container">
             <div class="content">
                 <div class="title">Laravel 5</div>
+                <a href="/page">Go to my subpage</a>
             </div>
         </div>
     </body>
