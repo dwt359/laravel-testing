@@ -39,7 +39,7 @@
 <div class="container">
     <div class="content">
         <div class="title">Look!</div>
-        <p>It's a second page!</p>
+        <p><?php echo $val; ?></p>
     </div>
 </div>
 </body>
