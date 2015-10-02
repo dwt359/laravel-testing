@@ -39,7 +39,7 @@
 <div class="container">
     <div class="content">
         <div class="title">Look!</div>
-        <p><?php echo $val; ?></p>
+        <p><pre><?php print_r($val); ?></pre></p>
     </div>
 </div>
 </body>

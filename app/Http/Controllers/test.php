@@ -14,6 +14,7 @@ use App\Http\Controllers\Controller;
 class test extends Controller{
 
     public function showTestPage(){
-        return view('page', ['val'=>'This comes from a controller.']);
+        $var = DB::table('item')->get();
+        return view('page', ['val'=>$var]);
     }
 }
